@@ -1,7 +1,7 @@
 # SPARKLE_AUTOMATION
 This folder contain scripts related to work automations
 
-## SMF_LINK_RISK
+## SMF_SNMP_LINK_RISK
 
 Link rischio SMF IP, ossia che sono composti da un solo link fisico per tratta, che se cade, ed il traffico non si riesce a distribuire senza saturare altri link creano le circostanze per fare uno SMF.
 
