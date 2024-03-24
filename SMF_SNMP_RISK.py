@@ -1,6 +1,5 @@
 import json
 
-
 def find_links_SMF():
 
 	arr = []
