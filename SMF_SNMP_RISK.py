@@ -8,9 +8,6 @@ def find_links_SMF():
 		racc = racc['rows'] # List of dictionary
 		# print(racc)
 
-		# Create a new dictionary containing  filtered(RACCORDI.josn(parent, name)
-		# print(type(racc))
-
 		for items in racc:
 			for i in items.keys():
 				# print(item.keys())
@@ -22,18 +19,11 @@ def find_links_SMF():
 
 		print(result)
 		misc.find_dsc(racc,result)
-		# print(type(result))
-		# print(len(result))
-
-		# for i in result:
-		# 	print('result')
-		# 	print(i)
 	return
-
 
 #-------------------------------------------------------------------------------------
 
-# Return parent values of the SMF at risk
+# Return parent values of LINKS at risk SMF
 
 def find_links(x):
 	y = []
@@ -55,7 +45,7 @@ def find_links(x):
 
 #-------------------------------------------------------------------------------------
 
-# Find the description of associated vulnerable links for SMF
+# Find the description of LINKS at risk SMF
 
 def find_dsc(x, lis):
 	a = []
@@ -68,10 +58,7 @@ def find_dsc(x, lis):
 
 	return
 
-
 #-------------------------------------------------------------------------------------
-# Main function used in order to troubleshoot the scai() class
-
 if __name__ == "__main__":
 
 	find_links_SMF()
