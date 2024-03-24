@@ -1,3 +1,6 @@
+import json
+
+
 def find_links_SMF():
 
 	arr = []
@@ -15,10 +18,10 @@ def find_links_SMF():
 					#print(items[i])
 					arr.append(items[i])
 
-		result = misc.find_links(arr)
+		result = find_links(arr)
 
 		print(result)
-		misc.find_dsc(racc,result)
+		find_dsc(racc,result)
 	return
 
 #-------------------------------------------------------------------------------------
