@@ -23,10 +23,10 @@ NetworkManagementTool()
   
   SCAINEMO()
   
-  / Funzioni specifiche per SCAINEMO
+      / Funzioni specifiche per SCAINEMO
   
   NETCRECKER()
   
-  / Funzioni specifche per netcrecker
+       / Funzioni specifche per netcrecker
 
 Questo design permette la creazione di un oggetto singlo che dinamicamente puo accedere a piu informazioni da molteplici collector (o monitoring/DB)
