@@ -12,7 +12,7 @@ Nei link normali invece la raggiungibilità viene quasi sempre backuppata facend
  
 ## Scraper
 
-Il file presente definisce una parent class NetworkManagementTool dove child classes sono definite andando ad agire in modo spcfico con funzioni ad-hoc per il NMT do referernza
+Il file presente definisce una parent class NetworkManagementTool dove child classes sono definite andando ad agire in modo spcfico con funzioni ad-hoc per il NMT/DB di referernza
 
 NetworkManagementTool()
   SCAINEMO()
