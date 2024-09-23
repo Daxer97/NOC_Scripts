@@ -1,22 +1,3 @@
-# https://.it/scainemo/tabAddrMgr.php?action=getlist
-# ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-# LISTA JSON DI TUTTI GLI address con elemento ID da passare a funzione IPinfo
-# HTML file with router information
-# Link: https://.it/scainemo/subtabDevice.php?action=loadginfo&id=941
-# LINK FOR GETTING IP'S /32 INFORMATIONS
-# https://.it/scainemo/tabAddrMgr.php?action=getSubnet&id=79.140.87.144_28_1
-# Trova le info per del subnet
-# https://.it/scainemo/tabAddrMgr.php?action=getSubInfo&id={0}".format(x)
-# FIND ALL THE POSSIBLE LINKS
-# https://.it/scainemo/tabAddon.php?addon=spracc&action=getlist
-# LAT AND LON FROM POP:
-# https://.it/scainemo/tabAddon.php?addon=spracc&action=getgeodataAllarm
-# ({"routers":[{"title":"AMS1","lat":"52.416660210793","lng":"4.7893524169922","id":0,"alarms":0,"alarms_desc":""},) JSON 'router'[0]
-# 'IP_BAND': misc.find_linkdatas(self.linkdata['rows'], shorts)
-# Logs of all POPs
-# self.logs = self.sso().get("https://.it/scainemo/tabLogs.php?action=getlogs", verify=False).json()
-
-
 from dotenv import load_dotenv
 import requests
 import random
@@ -91,13 +72,6 @@ class NetworkManagementTool():
 
 			#------------------------------------------------------------------
 
-			# Write all the information taken from skynemo to a file
-			#if isinstance(self.linkdata, dict):
-			#	with open('linkdata.py', 'w') as out:
-			#		pprint("Printing")
-			#		pprint(self.linkdata, stream=out)
-			#else:
-			#	raise ValueError("Not an instance of dict")
 			if isinstance(self.geodataAllarm, dict):
 				with open('geodataAllarm.py', 'w') as out:
 					pprint("Printing")
