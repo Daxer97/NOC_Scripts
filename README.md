@@ -20,9 +20,13 @@ Nei link normali invece la raggiungibilità viene quasi sempre backuppata facend
 Il file presente definisce una parent class NetworkManagementTool dove child classes sono definite andando ad agire in modo spcfico con funzioni ad-hoc per il NMT/DB di referernza
 
 NetworkManagementTool()
+  
   SCAINEMO()
+  
   / Funzioni specifiche per SCAINEMO
+  
   NETCRECKER()
+  
   / Funzioni specifche per netcrecker
 
 Questo design permette la creazione di un oggetto singlo che dinamicamente puo accedere a piu informazioni da molteplici collector (o monitoring/DB)
