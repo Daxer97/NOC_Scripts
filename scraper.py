@@ -15,9 +15,6 @@ import re
 # Load all oteh variable fromthe .env file
 load_dotenv(".env")
 
-# Define the length of the depth while pping
-# pp = pprint.PrettyPrinter(depth=None)
-
 # This class is used to take data form the nmt.
 class NetworkManagementTool():
 	def __init__(self, subclass):
