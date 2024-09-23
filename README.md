@@ -10,3 +10,14 @@ PS ci sono delle tratte che fanno 10 giga 1 Giga di traffico tra questi link e c
 Particolare attenzione va agli Intralink tra sopra menzionati come per esempio CAS-CAS o TIR-TIR dove se si perde quel link bisognerà fare lo SMNP tabella BLUE per il router di gerarchia piu bassa, dato il link in questione è solo uno per una tratta interna. 
 Nei link normali invece la raggiungibilità viene quasi sempre backuppata facendo un altro giro, dovendo porre attenzione alla possibilità di un presunto SMF IP in quel caso.
  
+## Scraper
+
+Il file presente definisce una parent class NetworkManagementTool dove child classes sono definite andando ad agire in modo spcfico con funzioni ad-hoc per il NMT do referernza
+
+NetworkManagementTool()
+  SCAINEMO()
+  # Funzioni specifiche per SCAINEMO
+  NETCRECKER()
+  # Funzioni specifche per netcrecker
+
+Questo design permette la creazione di un oggetto singlo che dinamicamente puo accedere a piu informazioni da molteplici collector (o monitoring/DB)
