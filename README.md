@@ -1,5 +1,6 @@
 # SPARKLE_AUTOMATION
 This folder contain scripts related to work automations
+
 *Disclamers*
 La presente cartella contiene scripts utilizzati per la convalida delle abilità di scrittura in Python applicate su infrastrutture di reti internet e management reali.
 Gli script sono stati utilizzati prettamente per uso personale all'interno del NOC per il raggoungimento delle task che risultavano ripetititve raggruppandole in singole funzioni.
