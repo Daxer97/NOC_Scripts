@@ -6,7 +6,7 @@ This folder contain scripts related to work automations
 La presente cartella contiene scripts utilizzati per la convalida delle abilità di scrittura in Python applicate su infrastrutture di reti internet e management reali.
 Gli script sono stati utilizzati prettamente per uso personale all'interno del NOC per il raggoungimento delle task che risultavano ripetititve raggruppandole in singole funzioni.
 
-## SMF_SNMP_RISK (Maniolazione Struttura dati JSON)
+## SMF_SNMP_RISK (Manipolazione Struttura dati JSON)
 
 Link rischio SMF IP, ossia che sono composti da un solo link fisico per tratta, che se cade, ed il traffico non si riesce a distribuire senza saturare altri link creano le circostanze per fare uno SMF.
 
