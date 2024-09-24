@@ -1,4 +1,4 @@
-# SPARKLE_AUTOMATION
+# NOC_Scritps
 This folder contain scripts related to work automations
 
 *Disclamers*
